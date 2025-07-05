@@ -50,14 +50,14 @@ endef
 define Package/v2ray-geoip
   $(call Package/v2ray-geodata/template)
   TITLE:=GeoIP List for V2Ray
-  VERSION:=$(GEOIP_VER)-$(PKG_RELEASE)
+  VERSION:=$(GEOIP_VER)-r$(PKG_RELEASE)
   LICENSE:=CC-BY-SA-4.0
 endef
 
 define Package/v2ray-geosite
   $(call Package/v2ray-geodata/template)
   TITLE:=Geosite List for V2Ray
-  VERSION:=$(GEOSITE_VER)-$(PKG_RELEASE)
+  VERSION:=$(GEOSITE_VER)-r$(PKG_RELEASE)
   LICENSE:=MIT
 endef
 
@@ -65,7 +65,7 @@ define Package/v2ray-geosite-ir
   $(call Package/v2ray-geodata/template)
   TITLE:=Iran Geosite List for V2Ray
   PROVIDES:=xray-geosite-ir
-  VERSION:=$(GEOSITE_IRAN_VER)-$(PKG_RELEASE)
+  VERSION:=$(GEOSITE_IRAN_VER)-r$(PKG_RELEASE)
   LICENSE:=MIT
 endef
 
