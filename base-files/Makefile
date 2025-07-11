@@ -172,13 +172,6 @@ define Package/base-files/install
 	$(Package/base-files/nand-support)
 	$(Package/base-files/legacy-sdcard-support)
 	$(Package/base-files/emmc-support)
-
-        if [ -n "${PKG_VERSION}" ]; then
-         echo "base-files=${PKG_VERSION}" >> $install_list
-         else
-         echo "base-files" >> $install_list
-         fi
-
         if [ -d $(GENERIC_PLATFORM_DIR)/base-files/. ]; then \
 		$(CP) $(GENERIC_PLATFORM_DIR)/base-files/* $(1)/; \
 	fi
