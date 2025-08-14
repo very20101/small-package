@@ -104,3 +104,4 @@ endef
 $(eval $(call BuildPackage,v2ray-geoip))
 $(eval $(call BuildPackage,v2ray-geosite))
 $(eval $(call BuildPackage,v2ray-geosite-ir))
+
