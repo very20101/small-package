@@ -258,7 +258,7 @@ ifneq ($(CONFIG_USE_APK),)
 	rm -f $(1)/sbin/pkg_check
 else
 	$(if $(CONFIG_CLEAN_IPKG),, \
-		mkdir -p $(1)/etc/opkg; \
+		mkdir -p $(1)/etc/opkg   \
 		$(call FeedSourcesAppendOPKG,$(1)/etc/opkg/distfeeds.conf); \
 		$(VERSION_SED_SCRIPT) $(1)/etc/opkg/distfeeds.conf)
 	$(if $(CONFIG_IPK_FILES_CHECKSUMS),, \
