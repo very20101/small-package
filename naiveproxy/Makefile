@@ -68,8 +68,8 @@ endif
 
 PKG_SOURCE:=naiveproxy-v$(PKG_VERSION)-openwrt-$(ARCH_PACKAGES).tar.xz
 #PKG_SOURCE_URL:=https://github.com/klzgrad/naiveproxy/releases/download/v$(PKG_VERSION)/
-PKG_SOURCE_URL:=https://github.com/klzgrad/naiveproxy/releases/download/v143.0.7499.109-2/
-#PKG_SOURCE_URL:=https://raw.githubusercontent.com/very20101/openwrt_N1_test/refs/heads/main/extra_pack/naiveproxy-v143.0.7499.109-2-openwrt-aarch64_generic.tar.xz
+#PKG_SOURCE_URL:=https://github.com/klzgrad/naiveproxy/releases/download/v143.0.7499.109-2/
+PKG_SOURCE_URL:=https://raw.githubusercontent.com/very20101/openwrt_N1_test/refs/heads/main/extra_pack/naiveproxy-v143.0.7499.109-2-openwrt-aarch64_generic.tar.xz
 PKG_BUILD_DIR:=$(BUILD_DIR)/naiveproxy-v$(PKG_VERSION)-openwrt-$(ARCH_PACKAGES)
 
 PKG_LICENSE:=BSD 3-Clause
