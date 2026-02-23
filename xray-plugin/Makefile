@@ -9,7 +9,8 @@ PKG_VERSION:=1.8.24
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=https://codeload.github.com/teddysun/xray-plugin/tar.gz/v$(PKG_VERSION)?
+#PKG_SOURCE_URL:=https://codeload.github.com/teddysun/xray-plugin/tar.gz/v$(PKG_VERSION)?
+PKG_SOURCE_URL:=https://raw.githubusercontent.com/very20101/Openwrt_retry/refs/heads/main/refs/xray-plugin-1.8.24.tar.gz
 PKG_HASH:=dc7d7bff3dfa66c002bd043c7ee60e61aecec2f548275da809f1390c45611836
 
 PKG_LICENSE:=MIT
