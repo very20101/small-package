@@ -339,6 +339,9 @@ msgstr ""
 "Интерфейс ModemManager. Если задан, то будет перезапущен после перезапуска "
 "ModemManger."
 
+msgid "Network device activity (kernel: netdev)"
+msgstr "Активность сетевого устройства (kernel: netdev)"
+
 msgid ""
 "Network device for Internet access. If not specified, the default "
 "device is used."
@@ -346,8 +349,12 @@ msgstr ""
 "Сетевое устройство для доступа в Интернет. Если не указано, используется "
 "устройство по умолчанию."
 
-msgid "Network device activity (kernel: netdev)"
-msgstr "Активность сетевого устройства (kernel: netdev)"
+msgid ""
+"Network device for sending messages. If not specified, the default "
+"device is used."
+msgstr ""
+"Сетевое устройство для отправки сообщений. Если не указано, используется "
+"устройство по умолчанию."
 
 msgid ""
 "Network device or interface to restart. If not specified, then the network service is restarted."
@@ -435,9 +442,6 @@ msgid ""
 msgstr ""
 "Период времени отсутствия доступа в Интренет перед перезагрузкой устройства."
 
-msgid "Regular script"
-msgstr "Регулярный скрипт"
-
 msgid "Polling interval"
 msgstr "Интервал опроса"
 
@@ -450,8 +454,14 @@ msgstr "Прокси"
 msgid "Proxy host"
 msgstr "Хост прокси"
 
+msgid "Proxy password"
+msgstr "Пароль прокси"
+
 msgid "Proxy port"
 msgstr "Порт прокси"
+
+msgid "Proxy user"
+msgstr "Пользователь прокси"
 
 msgid "Public IP"
 msgstr "Публичный IP"
@@ -470,6 +480,9 @@ msgstr "Приём"
 
 msgid "Recipient"
 msgstr "Получатель"
+
+msgid "Regular script"
+msgstr "Регулярный скрипт"
 
 msgid "Request chat ID from bot API"
 msgstr "Запросить ID чата через API бота"
