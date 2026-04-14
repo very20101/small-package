@@ -94,7 +94,9 @@ git clone --depth 1 https://github.com/peter-tank/luci-app-fullconenat
 git clone --depth 1 https://github.com/sirpdboy/sirpdboy-package && mv -n sirpdboy-package/luci-app-dockerman ./ ; rm -rf sirpdboy-package
 git clone --depth 1 https://github.com/sundaqiang/openwrt-packages && mv -n openwrt-packages/luci-* ./; rm -rf openwrt-packages
 git clone --depth 1 https://github.com/zxlhhyccc/luci-app-v2raya
-git clone --depth 1 https://github.com/kenzok8/luci-theme-ifit ifit && mv -n ifit/luci-theme-ifit ./;rm -rf ifit
+git clone --depth 1 https://github.com/kenzok8/luci-app-openclaw
+git clone --depth 1 https://github.com/kenzok78/luci-theme-infinityfreedom ifit && mv -n ifit/luci-theme-ifit ./;rm -rf ifit
+git clone --depth 1 https://github.com/kenzok8/openwrt-clashoo openwrt-clashoo && mv -n openwrt-clashoo/*clashoo ./; rm -rf openwrt-clashoo
 git clone --depth 1 https://github.com/kenzok78/openwrt-minisign
 git clone --depth 1 https://github.com/kenzok78/luci-theme-argone
 git clone --depth 1 https://github.com/kenzok78/luci-app-argone-config
