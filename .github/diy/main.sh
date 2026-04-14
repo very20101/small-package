@@ -101,8 +101,7 @@ git clone --depth 1 https://github.com/kenzok78/openwrt-minisign
 git clone --depth 1 https://github.com/kenzok78/luci-theme-argone
 git clone --depth 1 https://github.com/kenzok78/luci-app-argone-config
 git clone --depth 1 https://github.com/kenzok78/luci-app-adguardhome
-git clone --depth 1 https://github.com/kenzok78/luci-theme-design
-git clone --depth 1 https://github.com/kenzok78/luci-app-design-config
+git_sparse_clone main https://github.com/kenzok78/luci-design-bundle luci-design-bundle luci-theme-design luci-app-design-config
 git clone --depth 1 -b lede https://github.com/pymumu/luci-app-smartdns
 git clone --depth 1 https://github.com/ophub/luci-app-amlogic amlogic && mv -n amlogic/luci-app-amlogic ./;rm -rf amlogic
 git clone --depth 1 https://github.com/linkease/nas-packages && mv -n nas-packages/{network/services/*,multimedia/*} ./; rm -rf nas-packages
