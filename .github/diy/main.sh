@@ -76,7 +76,7 @@ git clone --depth 1 https://github.com/sirpdboy/luci-app-eqosplus
 git clone --depth 1 https://github.com/sirpdboy/luci-app-ddns-go ddnsgo && mv -n ddnsgo/luci-app-ddns-go ./; rm -rf ddnsgo
 #git clone --depth 1 https://github.com/Jason6111/luci-app-netdata
 git clone --depth 1 https://github.com/KFERMercer/luci-app-tcpdump
-git clone --depth 1 https://github.com/sirpdboy/luci-app-netwizard
+git clone --depth 1 https://github.com/sirpdboy/luci-app-netwizard app-netwizard && mv -n app-netwizard/*netwizard ./; rm -rf app-netwizard
 git clone --depth 1 https://github.com/jefferymvp/luci-app-koolproxyR
 git clone --depth 1 https://github.com/wolandmaster/luci-app-rtorrent
 git clone --depth 1 https://github.com/NateLol/luci-app-oled
